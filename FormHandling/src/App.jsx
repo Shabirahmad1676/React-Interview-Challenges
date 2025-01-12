@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify'
 
 function App() {
 
@@ -31,12 +32,23 @@ function App() {
     }
 
 
-
     setFName("")
     setemail("")
     setpass("")
     setconPass('')
     seterror('')
+
+    toast.success('🦄LogIn Successfull!', {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      // transition: Bounce,
+      })
   }
 
   return (
@@ -142,8 +154,8 @@ function App() {
               Login
             </button>
           </form>
-          
         </div>
+        <ToastContainer></ToastContainer>
       </div>
     </div>
   );
