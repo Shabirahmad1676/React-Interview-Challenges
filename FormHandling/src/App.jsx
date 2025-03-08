@@ -56,7 +56,7 @@ function App() {
       
       <div className="flex items-center justify-center w-96 rounded-md p-3 bg-white">
         <div className="w-3/4">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center bg-gradient-to-r from-yellow-500 to-purple-300 bg-clip-text text-transparent">Create an Account!</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center bg-gradient-to-r from-yellow-500 to-purple-300 bg-clip-text ">Create an Account!</h2>
           <form onSubmit={(e)=>{
             handleSubmit(e)
           }}>

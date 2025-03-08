@@ -1,1 +1,1 @@
-This is for all interview challenging questions. I tried my best t solve it
+This is for all interview challenging questions. I tried my best to solve it
